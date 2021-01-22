@@ -1,0 +1,40 @@
+Weather for:Mission, KS
+Now:Friday 10:00 AM
+Temperature now: 32°F
+Description:Partly cloudy
+Precipitation:0%
+Humidity:61%
+Wind:9 mph
+Next days:
+========================================Friday========================================
+Description:Partly cloudy
+Max temperature: 35°C
+Min temperature: 20°C
+========================================Saturday========================================
+Description:Mostly cloudy
+Max temperature: 43°C
+Min temperature: 37°C
+========================================Sunday========================================
+Description:Showers
+Max temperature: 43°C
+Min temperature: 32°C
+========================================Monday========================================
+Description:Rain and snow
+Max temperature: 34°C
+Min temperature: 24°C
+========================================Tuesday========================================
+Description:Cloudy
+Max temperature: 35°C
+Min temperature: 28°C
+========================================Wednesday========================================
+Description:Snow showers
+Max temperature: 35°C
+Min temperature: 23°C
+========================================Thursday========================================
+Description:Partly cloudy
+Max temperature: 39°C
+Min temperature: 30°C
+========================================Friday========================================
+Description:Partly cloudy
+Max temperature: 49°C
+Min temperature: 38°C
