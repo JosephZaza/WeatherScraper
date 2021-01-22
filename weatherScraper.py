@@ -46,9 +46,9 @@ def getWeatherData(url):
         # get weather status for that day
         weather = day.find("img").attrs["alt"]
         temp = day.findAll("span", {"class": "wob_t"})
-        # maximum temparature in Celsius, use temp[1].text if you want fahrenheit
+        # maximum temparature in fahrenheit (temp[1] for cel)
         maxTemp = temp[0].text
-        # minimum temparature in Celsius, use temp[3].text if you want fahrenheit
+        # minimum temparature in fahrenheit (temp[3] for cel)
         minTemp = temp[2].text
         next_days.append({"name": dayName, "weather": weather, "maxTemp": maxTemp, "minTemp": minTemp})
     # append to result
@@ -81,8 +81,8 @@ print("Next days:")
 for dayweather in data["nextDays"]:
     print("="*40, dayweather["name"], "="*40)
     print("Description:", dayweather["weather"])
-    print(f"Max temperature: {dayweather['maxTemp']}°C")
-    print(f"Min temperature: {dayweather['minTemp']}°C")
+    print(f"Max temperature: {dayweather['maxTemp']}°F")
+    print(f"Min temperature: {dayweather['minTemp']}°F")
 
 # Write data to file
 actualTime = strftime("%Y-%m-%d %H-%M-%S", gmtime())
